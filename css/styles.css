@@ -5,3 +5,51 @@
   color:white;
   
 }
+:root{
+  --maincolor:#2a2e47;
+  --seconadrycolor:#fefefa;
+  --thirdcolor : #373741;
+  --maincolor2:#2a2e47;
+  
+  /*--maincolor2:#e4e4ea;*/
+  --fourthcolor:#ffe7d4;
+
+
+}
+.vtimeline-icon{
+  color: var(--maincolor);
+  background-color:var(--seconadrycolor);
+}
+
+.vtimeline-date{
+  color: var(--seconadrycolor);
+}
+.vtimeline-content{
+  background-color: var(--seconadrycolor);
+}
+.vtimeline-content p{
+  
+  color:var(--thirdcolor);
+}
+.project {
+  background-color: var(--seconadrycolor);
+}
+.call{
+  color: var(--seconadrycolor);
+}
+
+.btn-rounded-white {
+  display: inline-block;
+  color: var(--seconadrycolor);
+  padding: 15px 25px;
+  border: 3px solid var(--seconadrycolor);
+  border-radius: 30px;
+  transition: .5s ease all;
+}
+
+.btn-rounded-white:hover{
+  background-color:var(--thirdcolor);
+}
+header a{
+  color: var(--thirdcolor);
+}
